@@ -17,20 +17,3 @@ Projede database e ve önbelleğe yazdırılan veriler kullanılarak 3 farklı w
 
 ## Kullanım
 Projeyi çalıştırınca postman üzerinden eğer breakdown/list servisine istek atarsanız bütün datayı json formatında görürsünüz. Eğer section/translate ya da state/translate servisine istek atarsanız belirli argümanların türkçe karakterlerle yazılmış halini görmüş olursunuz.
-
-## Environment Variables
-
-### Redis Variables
-- host name: "REDISHOST"
-    - value= "localhost"
-- port: "REDIS_PORT"
-    - value= "6379"
-- db: "REDIS_DB_VALUE"
-    - value= "0"
-- password: "REDIS_PSWRD"
-    - value= "redis_password"
-
-### Database Variables
-* SQLALCHEMY_DATABASE_URI: "DATABASE_URL"
-    * value= "postgresql://cargo:cargodb.12345@cargo-db.staj.svc.cluster.mantam/cargo"
-
